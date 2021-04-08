@@ -19,7 +19,7 @@ function About() {
                         </div>
                         <br></br>
                         <div class="aboutMeButtons">
-                            <a href={resume} class="btn btn-outline-primary" id="viewResume"
+                            <a href={resume} class="btn btn-2" id="viewResume"
                                 role="button">View Resume</a>
                         </div>
                     </div>

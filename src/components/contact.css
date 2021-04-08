@@ -9,16 +9,16 @@
 
 .social img {
     margin: 0px;
-    /* border-radius: 25%; */
-    width: 120px;
-    height: 120px;
+    border-radius: 50%;
+    width: 150px;
+    height:150px;
     border: none;
     padding: 30px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 40px; 
-    /* border:1px solid black; */
- }
+   
+ } 
 
 
 
@@ -64,14 +64,14 @@
  
  /* header social links */
   .social {
-    /* margin: 24px 0; */
+    
     padding: 0;
     font-size: 30px;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
  }
   .social li {
     display: inline-block;
-    /* margin: 0 15px; */
+   
     padding: 0;
  }
  .social li a { color: #fff; }
@@ -82,4 +82,39 @@ hr.divider {
     max-width: 3.25rem;
     border-width: 0.2rem;
     border-color: #4967ec;
+}
+
+
+/* social media icon style */
+
+ 
+#contact img:hover  {
+  transform: skew(-10deg);
+}
+
+
+/* typewriter effect */
+
+.typewriterNew h5 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: .15em solid orange;  */
+  /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 6s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }

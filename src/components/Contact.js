@@ -42,11 +42,11 @@ function Contact() {
         <div id="contact" className="row banner">
             <div className="banner-text">
                 <h3 className="responsive-headline">Contact Me</h3>
-                <h5>Feel free to contact me for future opportunities or to just say hi!
-               </h5>
+                <div class="typewriterNew">
+                    <h5>Feel free to contact me for future opportunities or to just say hi!</h5>
+                </div>
                 <hr className="divider" />
                 <ul className="social">
-
                     <li key="instagram">
                         <a href="https://www.instagram.com/kristen.lll/" target="_blank" >
                             <img src="https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_3-instagram-256.png" class="socialMedia" />
