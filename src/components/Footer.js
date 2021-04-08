@@ -1,14 +1,14 @@
 import React from "react";
-import "./style.css";
+import "./footer.css";
 
 function Footer() {
     return (
         <footer class="footer">
-            <div class="container">
-                <span class="text-muted">
+            <p class="footer-text-left">
+                <span class="text">
                     © Lu Hao Copyright 2021
         </span>
-            </div>
+            </p>
         </footer>
 
     )

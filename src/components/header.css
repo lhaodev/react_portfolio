@@ -1,0 +1,99 @@
+header img {
+    height: 80px;
+    margin-left: 70px;
+}
+body {
+    height: 125vh;
+    /* background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg'); */
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+/* main {
+    color: white;
+} */
+
+
+
+
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    overflow: hidden;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+#nav-wrap {
+  /* font: 20px 'opensans-bold', sans-serif; */
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+ .navbar-nav {
+    font: 15px 'opensans-bold', sans-serif;
+}
+
+.navbar-brand{
+    font: 50px 'opensans-bold', sans-serif; 
+}
+
+
+/* .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    display: inline-block;
+  }
+
+  .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+
+  .collapse:not(.show) {
+    display: none;
+  } */
+
+  @media only screen and (max-width:475px){
+    .navbar{
+      padding:0.5rem 2rem;
+    }  
+     .navbar-nav{
+         flex-flow:column nowrap;
+       }
+    
+     }

@@ -1,5 +1,9 @@
 import React from "react";
-import "./style.css";
+import "./header.css";
+import profilepic from '../assets/profilepic.png';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Image from 'react-bootstrap/Image'
 
 function Header() {
     return (
@@ -15,27 +19,41 @@ function Header() {
         //         </ul>
         //     </nav>
         // </header>
+        <header>
+            {/* <Image src={profilepic} /> */}
+            <nav className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="nav-wrap">
 
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Lu Hao</a>
-                <button
-                    class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span
-                        class="navbar-toggler-icon">
-                    </span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item"><a classname="smoothscroll" href="#about">About</a></li>
-                        <li class="nav-item"><a classname="smoothscroll" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a classname="smoothscroll" href="#contact">Contact</a></li>
-                    </ul>
+                <div className="container">
+                    <a className="navbar-brand js-scroll-trigger" href="#page-top">Lu Hao</a>
+                    {/* <button
+                        className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span
+                            className="navbar-toggler-icon">
+                        </span>
+                    </button> */}
+                    <div className="collapse navbar-collapse" id="navbarResponsive">
+                        <ul className="navbar-nav ml-auto my-2 my-lg-0" id="nav">
+                            <li className="nav-item"><a className="smoothscroll" href="#about">About</a></li>
+                            <li className="nav-item"><a className="smoothscroll" href="#portfolioLink">Portfolio</a></li>
+                            <li className="nav-item"><a className="smoothscroll" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
 
+            {/* <Navbar id="nav-wrap">
+                <Navbar.Brand className="navbar-brand" href="#page-top">Lu Hao</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ml-auto">
+                        <Nav.Link href="#about">About</Nav.Link>
+                        <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                        <Nav.Link href="#contact">Contact</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>*/}
+        </header>
 
     )
 }

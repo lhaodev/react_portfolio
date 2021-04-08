@@ -21,16 +21,6 @@ img {
     
 }
 
-.footer {
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: darkgrey;
-    text-align: center;
-    border-top: 5px solid darkslategray;
-    position: absolute;
-}
 
 .container {
     width: 100%;
