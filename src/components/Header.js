@@ -21,39 +21,40 @@ function Header() {
         // </header>
         <header>
             {/* <Image src={profilepic} /> */}
-            <nav className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="nav-wrap">
+            {/* <nav className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="nav-wrap">
 
                 <div className="container">
                     <a className="navbar-brand js-scroll-trigger" href="#page-top">Lu Hao</a>
-                    {/* <button
-                        className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        <span
-                            className="navbar-toggler-icon">
-                        </span>
-                    </button> */}
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav ml-auto my-2 my-lg-0" id="nav">
-                            <li className="nav-item"><a className="smoothscroll" href="#about">About</a></li>
-                            <li className="nav-item"><a className="smoothscroll" href="#portfolioLink">Portfolio</a></li>
-                            <li className="nav-item"><a className="smoothscroll" href="#contact">Contact</a></li>
+                            <li className="nav-item"><a className="smoothscroll" href="/about">About</a></li>
+                            <li className="nav-item"><a className="smoothscroll" href="/portfolio">Portfolio</a></li>
+                            <li className="nav-item"><a className="smoothscroll" href="/contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </nav> */}
 
-            {/* <Navbar id="nav-wrap">
-                <Navbar.Brand className="navbar-brand" href="#page-top">Lu Hao</Navbar.Brand>
+
+            <Navbar collapseOnSelect expand="lg" >
+                <Navbar.Brand className="navbar-brand " href="/about">Lu Hao</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto">
-                        <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
+                    <Nav className="ml-auto" id="navbar-nav">
+                        <Nav.Link eventKey="1" href="/about">About</Nav.Link>
+                        <Nav.Link eventKey="2" href="/portfolio">Portfolio</Nav.Link>
+                        <Nav.Link eventKey="3" href="/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-            </Navbar>*/}
-        </header>
+            </Navbar>
+
+
+
+
+
+
+
+        </header >
 
     )
 }
