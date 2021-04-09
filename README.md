@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# react_portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application was built using React and component state and router.  The application has three pages, the first page and also the landing page is About Me page, where has my simple introduction. The second page is Portfolio page, where I listed some of my projects with a screenshot of the each project and link directly to the GitHub repo. The last page is Contact page, and I listed three social media platforms I use frequently and feel free to reach out to me. 
 
-## Available Scripts
+## Table of Contents
+* [Screenshots](#Screenshots)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Technologies](#Technologies)
+* [Repository](#Repository)
+* [Deployment](#Deployment)
 
-In the project directory, you can run:
+#### About page
+The following is a screenshot of the About Me page of the portfolio application.
 
-### `npm start`
+<p align="center">
+  <img src="./public/screenshots/about.png" alt="About me page">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Portfolio page
+The following is a screenshot of the Portfolio page of the portfolio application.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="center">
+  <img src="./public/screenshots/project.png" alt="Projects page">
+</p>
 
-### `npm test`
+#### Contact page
+The following is a screenshot of the Contact page of three social media platforms that you can find me.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <img src="./public/screenshots/contact.png" alt="Contact me page">
+</p>
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Fork or clone the repo.
+* Make sure to install all the dependencies by running the following command:
+    * **npm install**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To use this application once installed, the user launches the application from a terminal window as follows:
 
-### `npm run eject`
+**npm start**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This will then open a browser window at localhost:3000.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The application can alternatively be run as a deployed application following the link in the Deployment section.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Technologies
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* React
+* BroswerRouter
+* axios
+* Bootstrap
+* HTML
+* CSS
 
-## Learn More
+## Repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Direct link to repository:  https://github.com/lhaodev/react_portfolio
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
 
-### Code Splitting
+The React Portfolio application is deployed on Heroku: https://tranquil-fjord-53321.herokuapp.com/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
